@@ -1,0 +1,259 @@
+.credit_layout_all {
+  width: 100%;
+  height: 1089px;
+  background: #f2f4f8 0% 0% no-repeat padding-box;
+  position: relative;
+}
+
+/* top menu 시작 */
+.credit_topmenu {
+  top: 80px;
+  width: 100%;
+  height: 100px;
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 0.91;
+
+  position: absolute;
+}
+
+.credit_menubar {
+  width: 1920px;
+  height: 100%;
+  margin: 0 auto;
+
+  position: relative;
+}
+
+.credit_menubar > ul {
+  left: 60%;
+  top: 50%;
+  transform: translate(0%, -50%);
+  position: absolute;
+  display: flex;
+}
+
+.credit_menubar > ul > li {
+  width: 155px;
+  height: 56px;
+
+  margin-left: 2%;
+
+  font: normal normal normal 20px/58px Pretendard;
+  color: #555555;
+  line-height: 56px;
+  text-align: center;
+
+  flex: 1;
+}
+
+.credit_menubar > ul > li:hover {
+  cursor: pointer;
+}
+
+.credit_menubar > ul > li:nth-of-type(1) {
+  background: #e1e7fd 0% 0% no-repeat padding-box;
+  border-radius: 13px;
+  font: normal normal 600 20px/58px Pretendard;
+  letter-spacing: 0px;
+  color: #4f44f0;
+}
+/* top menu 끝 */
+
+.buy_credit_layout {
+  top: 182px;
+  width: 1920px;
+  height: 907px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* credit 구매 title,content 시작 */
+.buy_credit_layout .title {
+  top: 109px;
+  left: 50%;
+  transform: translate(-50%, 0);
+
+  text-align: center;
+  font: normal normal bold 38px/45px Pretendard;
+  letter-spacing: 0px;
+  color: #000000;
+
+  position: absolute;
+}
+
+.buy_credit_layout .content {
+  top: 172px;
+  left: 50%;
+  transform: translate(-50%, 0);
+
+  font: normal normal normal 19px/23px Pretendard;
+  letter-spacing: 0px;
+  color: #7b7b7b;
+
+  position: absolute;
+}
+/* credit 구매 title,content 끝 */
+
+/* credit 구매 카드 시작 */
+.credit_price {
+  top: 248px;
+  width: 1920px;
+  height: 459px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.credit_price .credit_price_card {
+  width: 347px;
+  height: 459px;
+  margin: 0px 12px;
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 10px #00000008;
+  border-radius: 8px;
+
+  position: relative;
+}
+
+.credit_price .credit_price_card .card_title {
+  top: 40px;
+  left: 32px;
+
+  text-align: left;
+  font: normal normal bold 30px/36px Pretendard;
+  letter-spacing: 0px;
+  color: #000000;
+
+  position: absolute;
+}
+
+.credit_price .credit_price_card .card_content {
+  top: 92px;
+  left: 32px;
+
+  text-align: left;
+  font: normal normal normal 18px/28px Pretendard;
+  letter-spacing: 0px;
+  color: #7b7b7b;
+
+  position: absolute;
+}
+
+.credit_price .credit_price_card .credit {
+  top: 177px;
+  left: 32px;
+
+  text-align: left;
+  font: normal normal 600 24px/29px Pretendard;
+  letter-spacing: 0px;
+  color: #000000;
+
+  position: absolute;
+}
+
+.credit_price .credit_price_card .bonus_percent {
+  top: 177px;
+  right: 32px;
+
+  width: 70px;
+  height: 33px;
+
+  background: #e0edff 0% 0% no-repeat padding-box;
+  border-radius: 17px;
+
+  font: normal normal 600 16px/19px Pretendard;
+  letter-spacing: 0px;
+  text-align: center;
+  line-height: 33px;
+  color: #2116bf;
+
+  position: absolute;
+}
+
+.credit_price .credit_price_card .credit_info {
+  top: 230px;
+  left: 50%;
+  transform: translate(-50%, 0);
+
+  width: 283px;
+  height: 88px;
+
+  background: #f4f5f6 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+
+  position: relative;
+}
+
+.credit_price .credit_price_card .credit_info .basic_credit {
+  width: 251px;
+  top: 16px;
+  left: 16px;
+
+  text-align: left;
+  font: normal normal normal 16px/28px Pretendard;
+  letter-spacing: 0px;
+  color: #6e6e6e;
+
+  position: absolute;
+}
+
+.credit_price .credit_price_card .credit_info .basic_credit > span {
+  right: 0;
+
+  text-align: left;
+  font: normal normal normal 18px/28px Pretendard;
+  letter-spacing: 0px;
+  color: #070707;
+
+  position: absolute;
+}
+
+.credit_price .credit_price_card .credit_info .bonus_credit {
+  width: 251px;
+  top: 53px;
+  left: 16px;
+
+  text-align: left;
+  font: normal normal normal 16px/28px Pretendard;
+  letter-spacing: 0px;
+  color: #6e6e6e;
+
+  position: absolute;
+}
+
+.credit_price .credit_price_card .credit_info .bonus_credit > span {
+  right: 0;
+
+  text-align: left;
+  font: normal normal normal 18px/28px Pretendard;
+  letter-spacing: 0px;
+  color: #070707;
+
+  position: absolute;
+}
+
+.credit_price .credit_price_card .buy_btn {
+  top: 358px;
+  left: 50%;
+  transform: translate(-50%, 0);
+
+  width: 283px;
+  height: 61px;
+
+  background: #5146f0 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+
+  font: normal normal normal 20px/24px Pretendard;
+  letter-spacing: 0px;
+  color: #ffffff;
+  line-height: 61px;
+  text-align: center;
+  
+  cursor: pointer;
+
+  position: absolute;
+}
+
+/* credit 구매 카드 끝 */

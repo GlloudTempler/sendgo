@@ -1,0 +1,920 @@
+.message_layout_all {
+  width: 100%;
+  height: 2650px;
+  background: #f2f4f8 0% 0% no-repeat padding-box;
+  position: relative;
+}
+
+/* top menu 시작 */
+.message_topmenu {
+  top: 80px;
+  width: 100%;
+  height: 100px;
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 0.91;
+
+  position: relative;
+}
+
+.message_menubar {
+  width: 1920px;
+  height: 100%;
+  margin: 0 auto;
+
+  position: relative;
+}
+
+.message_menubar > ul {
+  left: 50%;
+  top: 50%;
+  transform: translate(-10%, -50%);
+  position: absolute;
+  display: flex;
+}
+
+.message_menubar > ul > li {
+  width: 155px;
+  height: 56px;
+
+  margin-left: 2%;
+
+  font: normal normal normal 20px/58px Pretendard;
+  color: #555555;
+  line-height: 56px;
+  text-align: center;
+
+  flex: 1;
+}
+
+.message_menubar > ul > li:hover {
+  cursor: pointer;
+}
+
+.message_menubar > ul > li:nth-of-type(1) {
+  background: #e1e7fd 0% 0% no-repeat padding-box;
+  border-radius: 13px;
+  font: normal normal 600 20px/58px Pretendard;
+  letter-spacing: 0px;
+  color: #4f44f0;
+}
+/* top menu 끝 */
+
+.send_message_layout {
+  width: 1030px;
+  height: 1552px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* top content 시작 */
+.sendMessage_layout {
+  top: 157px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 1223px;
+  height: 2212px;
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 24px;
+  opacity: 1;
+
+  position: relative;
+}
+
+.sendMessage_layout .top_content {
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+
+  width: 1030px;
+  height: 310px;
+
+  border-bottom: 1px solid #7070703b;
+
+  position: relative;
+}
+
+.sendMessage_layout .top_content .title {
+  top: 53px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  position: absolute;
+
+  text-align: center;
+  font: normal normal bold 38px/45px Pretendard;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.sendMessage_layout .top_content .sub_menu > ul {
+  top: 134px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  position: absolute;
+  display: flex;
+}
+
+.sendMessage_layout .top_content .sub_menu > ul > li {
+  width: 333px;
+  height: 66px;
+
+  margin-left: 8px;
+  margin-right: 8px;
+
+  font: normal normal normal 22px/26px Pretendard;
+  letter-spacing: 0px;
+  color: #555555;
+  text-align: center;
+  line-height: 66px;
+
+  background: #f5f6fa 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+.sendMessage_layout .top_content .sub_menu > ul > li:hover {
+  cursor: pointer;
+}
+
+.sendMessage_layout .top_content .sub_menu > ul > li:nth-of-type(1) {
+  background: #4f44f0 0% 0% no-repeat padding-box;
+  border-radius: 13px;
+  font: normal normal normal 22px/26px Pretendard;
+  line-height: 66px;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.sendMessage_layout .top_content .content {
+  top: 232px;
+  left: 0;
+  position: relative;
+}
+
+.sendMessage_layout .top_content .content > div {
+  height: 19px;
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.sendMessage_layout .top_content .content .circle {
+  top: 50%;
+  width: 3px;
+  height: 3px;
+  background: #525252 0% 0% no-repeat padding-box;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.sendMessage_layout .top_content .content > div > span {
+  margin-left: 8px;
+  text-align: left;
+  font: normal normal normal 16px/19px Pretendard;
+  letter-spacing: 0px;
+  color: #525252;
+  opacity: 1;
+}
+/* top content 끝 */
+
+/* 수신번호 시작 */
+.main_content .content1 {
+  left: 0px;
+  height: 494px;
+  width: 562px;
+
+  border-bottom: 1px solid #7070703b;
+  position: relative;
+}
+
+.main_content .content1 .title {
+  top: 32px;
+  text-align: left;
+  font: normal normal 600 22px/26px Pretendard;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+
+  position: absolute;
+}
+
+.main_content .content1 .input_phone {
+  top: 74px;
+  width: 409px;
+  height: 61px;
+  padding-left: 20px;
+  padding-right: 10px;
+
+  background: #f4f5f6 0% 0% no-repeat padding-box;
+  border: 0px solid;
+  border-radius: 8px;
+
+  text-align: left;
+  font: normal normal normal 18px/21px Pretendard;
+  letter-spacing: 0px;
+  color: #7b7b7b;
+
+  position: absolute;
+}
+
+.main_content .content1 .input_phone:focus {
+  outline: none;
+  color: #000000;
+}
+
+/*  chrome, safart, edge, opera 에서 화살표 제거 */
+.main_content .content1 .input_phone::-webkit-outer-spin-button,
+.main_content .content1 .input_phone::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/*  Firefox에서 화살표 제거 */
+.main_content .content1 .input_phone[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.main_content .content1 .insert_btn {
+  top: 74px;
+  right: 0;
+  width: 114px;
+  height: 61px;
+
+  background: #4f44f0 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+
+  position: absolute;
+}
+
+.main_content .content1 .insert_btn:hover {
+  cursor: pointer;
+}
+
+.main_content .content1 .insert_btn > img {
+  top: 50%;
+  left: 17px;
+  transform: translate(0%, -50%);
+
+  width: 32px;
+  height: 32px;
+
+  position: relative;
+}
+
+.main_content .content1 .insert_btn > span {
+  top: 50%;
+  right: 30px;
+  transform: translate(0%, -50%);
+
+  text-align: left;
+  font: normal normal normal 20px/24px Pretendard;
+  letter-spacing: 0px;
+  color: #ffffff;
+
+  position: absolute;
+}
+
+.view_phone {
+  top: 150px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 560px;
+  height: 236px;
+
+  background: #f4f5f600 0% 0% no-repeat padding-box;
+  border: 1px solid #cecece;
+  border-radius: 8px;
+
+  position: relative;
+}
+
+.view_phone .content {
+  top: 20px;
+  left: 20px;
+
+  font: normal normal normal 18px/21px Pretendard;
+  letter-spacing: 0px;
+  color: #7b7b7b;
+  text-align: left;
+
+  position: absolute;
+}
+
+.view_phone .count_phone {
+  bottom: 20px;
+  left: 20px;
+
+  text-align: left;
+  font: normal normal 600 18px/21px Pretendard;
+  letter-spacing: 0px;
+  color: #000000;
+
+  position: absolute;
+}
+
+.view_phone .count_phone_number {
+  text-align: left;
+  font: normal normal 600 18px/21px Pretendard;
+  letter-spacing: 0px;
+  color: #5e2bff;
+}
+
+.view_phone .delete_all {
+  bottom: 20px;
+  right: 20px;
+
+  text-align: left;
+  text-decoration: underline;
+  font: normal normal medium 18px/21px Pretendard;
+  letter-spacing: 0px;
+  color: #6a6a6a;
+
+  position: absolute;
+}
+
+.view_phone .delete_all:hover {
+  cursor: pointer;
+}
+
+.main_content .content1 > ul {
+  top: 401px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  position: absolute;
+  display: flex;
+}
+
+.main_content .content1 > ul > li {
+  width: 180px;
+  height: 61px;
+
+  margin-left: 4px;
+  margin-right: 4px;
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #cecece;
+  border-radius: 8px;
+
+  position: relative;
+}
+
+.main_content .content1 > ul > li:hover {
+  cursor: pointer;
+}
+
+.main_content .content1 > ul > li > img {
+  top: 50%;
+  transform: translate(0%, -50%);
+  left: 25px;
+
+  width: 32px;
+  height: 32px;
+
+  position: absolute;
+}
+
+.main_content .content1 > ul > li > span {
+  top: 50%;
+  left: 50%;
+  transform: translate(-35%, -50%);
+  width: 101px;
+
+  text-align: left;
+  font: normal normal normal 16px/19px Pretendard;
+  letter-spacing: 0px;
+  color: #7b7b7b;
+
+  position: absolute;
+}
+/* 수신번호 끝 */
+
+/* 발신번호 시작 */
+.main_content .content2 {
+  left: 0px;
+  height: 167px;
+  width: 562px;
+
+  border-bottom: 1px solid #7070703b;
+  position: relative;
+}
+
+.main_content .content2 .title {
+  top: 32px;
+  text-align: left;
+  font: normal normal 600 22px/26px Pretendard;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+
+  position: absolute;
+}
+
+.main_content .content2 .select_design > select {
+  width: 100%;
+  height: 100%;
+
+  padding-left: 20px;
+
+  text-align: left;
+  font: normal normal normal 18px/21px Pretendard;
+  letter-spacing: 0px;
+  color: #7b7b7b;
+
+  -webkit-appearance: none; /* for chrome */
+  -moz-appearance: none; /*for firefox*/
+  box-sizing: border-box; /* select 박스의 크기 방식 지정. */
+  background: transparent;
+  border: 0px;
+}
+
+.main_content .content2 .select_design > select:focus {
+  outline: none;
+  color: #000000;
+}
+
+.main_content .content2 .select_design > select::-ms-expand {
+  display: none; /*for IE10,11*/
+}
+
+.main_content .content2 .select_design {
+  top: 74px;
+  width: 100%;
+  height: 61px;
+
+  background: #f4f5f6 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  position: relative;
+}
+
+.main_content .content2 .select_design > img {
+  top: 50%;
+  transform: translate(-150%, -50%);
+
+  width: 26px;
+  height: 26px;
+
+  position: absolute;
+}
+/* 발신번호 시작 */
+
+/* 메세지 입력 시작 */
+.main_content .content3 {
+  left: 0px;
+  height: 891px;
+  width: 562px;
+
+  position: relative;
+}
+
+.main_content .content3 .title {
+  top: 32px;
+  text-align: left;
+  font: normal normal 600 22px/26px Pretendard;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+
+  position: absolute;
+}
+
+.message_input_layout {
+  top: 74px;
+
+  width: 100%;
+  height: 783px;
+
+  background: #f6f6f6 0% 0% no-repeat padding-box;
+  border: 1px solid #e1e3e5;
+  border-radius: 8px;
+
+  position: relative;
+}
+
+.message_input_layout .title_input {
+  top: 24px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+
+  width: 473px;
+  height: 61px;
+
+  padding-left: 20px;
+  padding-right: 20px;
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #cecece;
+  border-radius: 8px;
+
+  text-align: left;
+  font: normal normal normal 18px/21px Pretendard;
+  letter-spacing: 0px;
+  color: #7b7b7b;
+
+  position: absolute;
+}
+
+.message_input_layout .title_input {
+  outline: none;
+}
+
+.message_input_layout .information {
+  top: 102px;
+  width: 513px;
+  height: 35px;
+  margin: 0px auto;
+  position: relative;
+}
+
+.message_input_layout .information .sms {
+  left: 0px;
+  top: 0px;
+  width: 101px;
+  height: 35px;
+  background: #5e2bff 0% 0% no-repeat padding-box;
+  border-radius: 35px;
+
+  font: normal normal normal 16px/19px Pretendard;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  position: absolute;
+}
+
+.message_input_layout .information .byte {
+  top: 50%;
+  transform: translate(0%, -50%);
+  right: 46px;
+
+  font: normal normal normal 16px/19px Pretendard;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #8d8d8d;
+
+  position: absolute;
+}
+
+.message_input_layout .information .byte .byte_count {
+  text-align: left;
+  font: normal normal 600 16px/19px Pretendard;
+  letter-spacing: 0px;
+  color: #5e2bff;
+}
+
+.message_input_layout .information .reset_img {
+  right: 0px;
+  top: 0px;
+  width: 35px;
+  height: 35px;
+
+  background-image: url("../images/49953@2x.png");
+  background-size: cover;
+  position: absolute;
+}
+
+.message_input_layout .content_input_layout {
+  top: 123px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+
+  width: 513px;
+  height: 295px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #cecece;
+  border-radius: 8px;
+
+  position: relative;
+}
+
+.message_input_layout .content_input_layout .content_input {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 473px;
+  height: 255px;
+
+  resize: none;
+  background: transparent;
+  border: 0px;
+
+  vertical-align: top;
+  text-align: left;
+  font: normal normal normal 18px/24px Pretendard;
+  letter-spacing: 0px;
+  color: #7b7b7b;
+
+  position: absolute;
+}
+
+.message_input_layout .content_input_layout .content_input:focus {
+  outline: none;
+  color: #000000;
+}
+
+.message_input_layout .content_input_layout > ul {
+  top: 232px;
+  left: 50%;
+  transform: translate(-30%, 0%);
+  position: absolute;
+  display: flex;
+}
+
+.message_input_layout .content_input_layout > ul > li {
+  width: 107px;
+  height: 43px;
+
+  margin-left: 6px;
+  margin-right: 6px;
+
+  font: normal normal normal 16px/19px Pretendard;
+  letter-spacing: 0px;
+  color: #646464;
+  text-align: center;
+  line-height: 43px;
+
+  background: #f5f5f5 0% 0% no-repeat padding-box;
+  border-radius: 22px;
+  position: relative;
+}
+
+.message_input_layout .content_input_layout > ul > li:hover {
+  cursor: pointer;
+}
+
+.message_input_layout .add_sms {
+  top: 473px;
+  left: 50%;
+  transform: translate(-50%, 0);
+
+  width: 513px;
+  height: 75px;
+  border-top: 1px solid #7070703b;
+  border-bottom: 1px solid #7070703b;
+
+  position: absolute;
+}
+
+.message_input_layout .add_sms .title {
+  top: 50%;
+  transform: translate(0, -50%);
+
+  text-align: left;
+  font: normal normal 600 18px/21px Pretendard;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.message_input_layout .add_sms .check_img {
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+
+  width: 59px;
+  height: 32px;
+
+  background-image: url("../images/7445@2x.png");
+  background-size: cover;
+  position: absolute;
+}
+
+.message_input_layout .add_sms .check_img:hover {
+  cursor: pointer;
+}
+
+.message_input_layout .add_image {
+  top: 548px;
+  left: 50%;
+  transform: translate(-50%, 0);
+
+  width: 513px;
+  height: 235px;
+
+  position: absolute;
+}
+
+.message_input_layout .add_image .title {
+  top: 16px;
+
+  text-align: left;
+  font: normal normal 600 18px/21px Pretendard;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.message_input_layout .add_image .add_image_button {
+  top: 53px;
+  left: 0;
+
+  width: 100px;
+  height: 100px;
+
+  background-image: url("../images/49957@2x.png");
+  background-size: cover;
+
+  position: absolute;
+}
+
+.message_input_layout .add_image .add_image_button:hover {
+  cursor: pointer;
+}
+
+.message_input_layout .add_image .content {
+  top: 169px;
+  left: 0;
+  position: relative;
+}
+
+.message_input_layout .add_image .content > div {
+  height: 19px;
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.message_input_layout .add_image .content .circle {
+  top: 50%;
+  width: 3px;
+  height: 3px;
+  background: #525252 0% 0% no-repeat padding-box;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.message_input_layout .add_image .content > div > span {
+  margin-left: 8px;
+  text-align: left;
+  font: normal normal normal 16px/19px Pretendard;
+  letter-spacing: 0px;
+  color: #797979;
+  opacity: 1;
+}
+/* 메세지 입력 끝 */
+
+/* 핸드폰 화면 시작 */
+.main_content .screen_layout {
+  top: 0px;
+  right: 0;
+
+  padding-bottom: 33px;
+  padding-top: 33px;
+
+  width: 401px;
+  height: 1486px;
+  position: absolute;
+}
+
+.screen {
+  top: 100px;
+  right: 0px;
+
+  width: 401px;
+  height: 775px;
+
+  background: #eaf8ff 0% 0% no-repeat padding-box;
+  border: 5px solid #4d4d4d;
+  border-radius: 22px;
+
+  position: sticky;
+}
+
+.screen > img {
+  top: 12px;
+  left: 9px;
+  width: 46px;
+  height: 46px;
+  transform: rotate(90deg);
+
+  position: absolute;
+}
+
+.screen > img:hover {
+  cursor: pointer;
+}
+/* 핸드폰 화면 끝 */
+
+/* 발송 설정 */
+.sendMessage_layout .main_content .send_setting_layout {
+  left: 50%;
+  transform: translate(-50%, 0);
+
+  width: 1031px;
+  height: 172px;
+
+  border-top: 1px solid #7070703b;
+  border-bottom: 1px solid #7070703b;
+
+  position: relative;
+}
+
+.sendMessage_layout .main_content .send_setting_layout .title {
+  top: 32px;
+  text-align: left;
+  font: normal normal 600 22px/26px Pretendard;
+  letter-spacing: 0px;
+  color: #000000;
+  position: absolute;
+}
+
+.sendMessage_layout .main_content .send_setting_layout > ul {
+  top: 74px;
+  left: 0;
+
+  position: absolute;
+  display: flex;
+}
+
+.sendMessage_layout .main_content .send_setting_layout > ul > li {
+  width: 274px;
+  height: 66px;
+
+  margin-right: 15px;
+
+  text-align: center;
+  font: normal normal normal 22px/26px Pretendard;
+  font-weight: 500;
+  letter-spacing: 0px;
+  color: #747b84;
+  line-height: 66px;
+
+  background: #f2f5f9 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  position: relative;
+}
+
+.sendMessage_layout .main_content .send_setting_layout > ul > .selected {
+  width: 274px;
+  height: 66px;
+
+  margin-right: 15px;
+
+  font: normal normal normal 22px/26px Pretendard;
+  font-weight: 500;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #4f44f0;
+  line-height: 66px;
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #293f711f;
+  border: 2px solid #4f44f0;
+  border-radius: 8px;
+  position: relative;
+}
+
+.sendMessage_layout .main_content .send_setting_layout > ul > li:hover {
+  cursor: pointer;
+}
+
+.sendMessage_layout .main_content .send_setting_layout > ul > li > img {
+  top: 50%;
+  transform: translate(-130%, -50%);
+  width: 32px;
+  height: 32px;
+  position: absolute;
+}
+
+.send_setting_check-enter-active,
+.send_setting_check-leave-active {
+  transition: all 0.3s ease-in-out;
+}
+
+.send_setting_check-enter-from,
+.send_setting_check-leave-to {
+  opacity: 0;
+}
+
+/* 발송 설정 */
+
+/* 발송 하기 시작 */
+.send_layout {
+  width: 1031px;
+  height: 178px;
+
+  margin: 0 auto;
+  position: relative;
+}
+
+.send_layout .send_btn {
+  top: 40px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  
+  width: 1031px;
+  height: 66px;
+
+  background: #4f44f0 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+
+  font: normal normal normal 22px/26px Pretendard;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 66px;
+
+  cursor: pointer;
+  position: absolute;
+}
+/* 발송 하기 끝 */
+
+/* 메시지 전송 끝 */
