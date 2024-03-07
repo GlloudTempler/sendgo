@@ -79,6 +79,9 @@ export default {
       checked: false,
     };
   },
+  created() {
+
+  },
   methods: {
     clicked() {
       if (this.checked == false) {

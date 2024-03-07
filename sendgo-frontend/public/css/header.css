@@ -1,133 +1,511 @@
-.navbar {
-  width: 100%;
-  background: #ffffff 0% 0% no-repeat padding-box;
-  height: 80px;
-  opacity: 1;
-  position: fixed;
-  
-  border-bottom: 1px solid #F4F6F9;
-  z-index: 999;
+@media screen and (min-width: 1920px) {
+  .navbar {
+    width: 100%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    height: 80px;
+    opacity: 1;
+    position: fixed;
+
+    border-bottom: 1px solid #f4f6f9;
+    z-index: 999;
+  }
+
+  .topmenu .logo {
+    left: 20%;
+    top: 50%;
+    transform: translate(0, -50%);
+    position: absolute;
+
+    width: 142px;
+    height: 44px;
+
+    background: transparent url("../images/sendgo asset 기본 가로형.svg") 0% 0%
+      no-repeat padding-box;
+    background-size: contain;
+
+    cursor: pointer;
+    display: flex;
+
+    margin-right: 5%;
+  }
+
+  .top_menulist {
+    width: 400px;
+    left: 50%;
+    transform: translate(-70%, 0%);
+    display: flex;
+    position: absolute;
+  }
+
+  .top_menulist > a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .message_btn {
+    height: 80px;
+    width: 186px;
+
+    text-align: center;
+    color: #000000;
+    font: normal normal 600 20px/24px Pretendard;
+    line-height: 80px;
+  }
+
+  .credit_btn {
+    height: 80px;
+    width: 186px;
+
+    text-align: center;
+    color: #000000;
+    font: normal normal 600 20px/24px Pretendard;
+    line-height: 80px;
+  }
+
+  .navbar_black {
+    width: 100%;
+    background: #000000 0% 0% no-repeat padding-box;
+    height: 80px;
+    opacity: 1;
+    position: fixed;
+    border-bottom: 1px solid #343434;
+    z-index: 999;
+  }
+
+  .navbar_black .topmenu .logo {
+    left: 20%;
+    top: 50%;
+    transform: translate(0, -50%);
+    position: absolute;
+
+    width: 142px;
+    height: 44px;
+
+    background: transparent url("../images/sendgo asset gray 가로형.svg") 0% 0%
+      no-repeat padding-box;
+    background-size: contain;
+
+    cursor: pointer;
+    display: flex;
+
+    margin-right: 5%;
+  }
+
+  .navbar_black .menulist > a:hover {
+    color: #d9d9d9;
+  }
+
+  .navbar_black .message_btn {
+    height: 80px;
+    width: 186px;
+    text-align: center;
+    color: #d9d9d9;
+    font: normal normal 600 20px/24px Pretendard;
+    line-height: 80px;
+  }
+
+  .navbar_black .credit_btn {
+    height: 80px;
+    width: 186px;
+    text-align: center;
+    color: #d9d9d9;
+    font: normal normal 600 20px/24px Pretendard;
+    line-height: 80px;
+  }
+
+  /* fadeOut */
+  .black-enter-active,
+  .black-leave-active {
+    transition: all 0.3s;
+  }
+
+  .black-enter-from,
+  .black-leave-to {
+    opacity: 0;
+    transform: translateY(-80px);
+  }
 }
 
-.topmenu {
-  width: 100%;
-  height: 100%;
-  position: relative;
+@media screen and (max-width: 1919px) {
+  .navbar {
+    width: 100%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    height: 80px;
+    opacity: 1;
+    position: fixed;
+
+    border-bottom: 1px solid #f4f6f9;
+    z-index: 999;
+  }
+
+  .topmenu .logo {
+    left: 20%;
+    top: 50%;
+    transform: translate(0, -50%);
+    position: absolute;
+
+    width: 142px;
+    height: 44px;
+
+    background: transparent url("../images/sendgo asset 기본 가로형.svg") 0% 0%
+      no-repeat padding-box;
+    background-size: contain;
+
+    cursor: pointer;
+    display: flex;
+
+    margin-right: 5%;
+  }
+
+  .top_menulist {
+    width: 400px;
+    left: 50%;
+    transform: translate(-30%, 0%);
+    display: flex;
+    position: absolute;
+  }
+
+  .top_menulist > a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .message_btn {
+    height: 80px;
+    width: 186px;
+
+    text-align: center;
+    color: #000000;
+    font: normal normal 600 20px/24px Pretendard;
+    line-height: 80px;
+  }
+
+  .credit_btn {
+    height: 80px;
+    width: 186px;
+
+    text-align: center;
+    color: #000000;
+    font: normal normal 600 20px/24px Pretendard;
+    line-height: 80px;
+  }
+
+  .navbar_black {
+    width: 100%;
+    background: #000000 0% 0% no-repeat padding-box;
+    height: 80px;
+    opacity: 1;
+    position: fixed;
+    border-bottom: 1px solid #343434;
+    z-index: 999;
+  }
+
+  .navbar_black .topmenu .logo {
+    left: 20%;
+    top: 50%;
+    transform: translate(0, -50%);
+    position: absolute;
+
+    width: 142px;
+    height: 44px;
+
+    background: transparent url("../images/sendgo asset gray 가로형.svg") 0% 0%
+      no-repeat padding-box;
+    background-size: contain;
+
+    cursor: pointer;
+    display: flex;
+
+    margin-right: 5%;
+  }
+
+  .navbar_black .menulist > a:hover {
+    color: #d9d9d9;
+  }
+
+  .navbar_black .message_btn {
+    height: 80px;
+    width: 186px;
+    text-align: center;
+    color: #d9d9d9;
+    font: normal normal 600 20px/24px Pretendard;
+    line-height: 80px;
+  }
+
+  .navbar_black .credit_btn {
+    height: 80px;
+    width: 186px;
+    text-align: center;
+    color: #d9d9d9;
+    font: normal normal 600 20px/24px Pretendard;
+    line-height: 80px;
+  }
+
+  /* fadeOut */
+  .black-enter-active,
+  .black-leave-active {
+    transition: all 0.3s;
+  }
+
+  .black-enter-from,
+  .black-leave-to {
+    opacity: 0;
+    transform: translateY(-80px);
+  }
 }
 
-.topmenu .logo {
-  left: 10%;
-  top: 50%;
-  transform: translate(0, -50%);
-  position: absolute;
+@media screen and (max-width: 1024px) {
+  .navbar {
+    width: 100%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    height: 80px;
+    opacity: 1;
+    position: fixed;
 
-  width: 142px;
-  height: 44px;
+    border-bottom: 1px solid #f4f6f9;
+    z-index: 999;
+  }
 
-  background: transparent url("../images/sendgo asset 기본 가로형.svg") 0% 0%
-    no-repeat padding-box;
-  background-size: contain;
+  .topmenu .logo {
+    left: 10%;
+    top: 50%;
+    transform: translate(0, -50%);
+    position: absolute;
 
-  cursor: pointer;
-  display: flex;
+    width: 142px;
+    height: 44px;
 
-  margin-right: 5%;
+    background: transparent url("../images/sendgo asset 기본 가로형.svg") 0% 0%
+      no-repeat padding-box;
+    background-size: contain;
+
+    cursor: pointer;
+    display: flex;
+
+    margin-right: 5%;
+  }
+
+  .top_menulist {
+    width: 400px;
+    left: 50%;
+    transform: translate(-30%, 0%);
+    display: flex;
+    position: absolute;
+  }
+
+  .top_menulist > a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .message_btn {
+    height: 80px;
+    width: 186px;
+
+    text-align: center;
+    color: #000000;
+    font: normal normal 600 20px/24px Pretendard;
+    line-height: 80px;
+  }
+
+  .credit_btn {
+    height: 80px;
+    width: 186px;
+
+    text-align: center;
+    color: #000000;
+    font: normal normal 600 20px/24px Pretendard;
+    line-height: 80px;
+  }
+
+  .navbar_black {
+    width: 100%;
+    background: #000000 0% 0% no-repeat padding-box;
+    height: 80px;
+    opacity: 1;
+    position: fixed;
+    border-bottom: 1px solid #343434;
+    z-index: 999;
+  }
+
+  .navbar_black .topmenu .logo {
+    left: 10%;
+    top: 50%;
+    transform: translate(0, -50%);
+    position: absolute;
+
+    width: 142px;
+    height: 44px;
+
+    background: transparent url("../images/sendgo asset gray 가로형.svg") 0% 0%
+      no-repeat padding-box;
+    background-size: contain;
+
+    cursor: pointer;
+    display: flex;
+
+    margin-right: 5%;
+  }
+
+  .navbar_black .menulist > a:hover {
+    color: #d9d9d9;
+  }
+
+  .navbar_black .message_btn {
+    height: 80px;
+    width: 186px;
+    text-align: center;
+    color: #d9d9d9;
+    font: normal normal 600 20px/24px Pretendard;
+    line-height: 80px;
+  }
+
+  .navbar_black .credit_btn {
+    height: 80px;
+    width: 186px;
+    text-align: center;
+    color: #d9d9d9;
+    font: normal normal 600 20px/24px Pretendard;
+    line-height: 80px;
+  }
+
+  /* fadeOut */
+  .black-enter-active,
+  .black-leave-active {
+    transition: all 0.3s;
+  }
+
+  .black-enter-from,
+  .black-leave-to {
+    opacity: 0;
+    transform: translateY(-80px);
+  }
 }
 
-.top_menulist {
-  width: 400px;
-  left: 50%;
-  transform: translate(-50%, 0%);
-  display: flex;
-  position: relative;
-}
+@media screen and (max-width: 767px) {
+  .navbar {
+    width: 100%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    height: 80px;
+    opacity: 1;
+    position: fixed;
 
-.top_menulist > a {
-  text-decoration: none;
-  cursor: pointer;
-}
+    border-bottom: 1px solid #f4f6f9;
+    z-index: 999;
+  }
 
+  .topmenu .logo {
+    left: 5%;
+    top: 50%;
+    transform: translate(0, -50%);
+    position: absolute;
 
+    width: 142px;
+    height: 44px;
 
-.message_btn {
-  height: 80px;
-  width: 186px;
-  
-  text-align: center;
-  color: #000000;
-  font: normal normal 600 20px/24px Pretendard;
-  line-height: 80px;
-}
+    background: transparent url("../images/sendgo asset 기본 가로형.svg") 0% 0%
+      no-repeat padding-box;
+    background-size: contain;
 
-.credit_btn {
-  height: 80px;
-  width: 186px;
+    cursor: pointer;
+    display: flex;
 
-  text-align: center;
-  color: #000000;
-  font: normal normal 600 20px/24px Pretendard;
-  line-height: 80px;
-}
+    margin-right: 5%;
+  }
 
-.navbar_black {
-  width: 100%;
-  background: #000000 0% 0% no-repeat padding-box;
-  height: 80px;
-  opacity: 1;
-  position: fixed;
-  border-bottom: 1px solid #343434;
-  z-index: 999;
-}
+  .top_menulist {
+    width: fit-content;
+    left: 50%;
+    transform: translate(-30%, 0%);
+    display: flex;
+    position: absolute;
+  }
 
-.navbar_black .topmenu .logo {
-  left: 10%;
-  top: 50%;
-  transform: translate(0, -50%);
-  position: absolute;
+  .top_menulist > a {
+    text-decoration: none;
+    cursor: pointer;
+  }
 
-  width: 142px;
-  height: 44px;
+  .message_btn {
+    height: 80px;
+    width: 186px;
 
-  background: transparent url("../images/sendgo asset gray 가로형.svg") 0% 0%
-    no-repeat padding-box;
-  background-size: contain;
+    text-align: center;
+    color: #000000;
+    font: normal normal 600 20px/24px Pretendard;
+    line-height: 80px;
+  }
 
-  cursor: pointer;
-  display: flex;
+  .credit_btn {
+    height: 80px;
+    width: 186px;
 
-  margin-right: 5%;
-}
+    text-align: center;
+    color: #000000;
+    font: normal normal 600 20px/24px Pretendard;
+    line-height: 80px;
+  }
 
-.navbar_black .menulist > a:hover {
-  color: #d9d9d9;
-}
+  .navbar_black {
+    width: 100%;
+    background: #000000 0% 0% no-repeat padding-box;
+    height: 80px;
+    opacity: 1;
+    position: fixed;
+    border-bottom: 1px solid #343434;
+    z-index: 999;
+  }
 
-.navbar_black .message_btn {
-  height: 80px;
-  width: 186px;
-  text-align: center;
-  color: #d9d9d9;
-  font: normal normal 600 20px/24px Pretendard;
-  line-height: 80px;
-}
+  .navbar_black .topmenu .logo {
+    left: 5%;
+    top: 50%;
+    transform: translate(0, -50%);
+    position: absolute;
 
-.navbar_black .credit_btn {
-  height: 80px;
-  width: 186px;
-  text-align: center;
-  color: #d9d9d9;
-  font: normal normal 600 20px/24px Pretendard;
-  line-height: 80px;
-}
+    width: 142px;
+    height: 44px;
 
-/* fadeOut */
-.black-enter-active,
-.black-leave-active {
-  transition: all 0.3s;
-}
+    background: transparent url("../images/sendgo asset gray 가로형.svg") 0% 0%
+      no-repeat padding-box;
+    background-size: contain;
 
-.black-enter-from,
-.black-leave-to {
-  opacity: 0;
-  transform: translateY(-80px);
+    cursor: pointer;
+    display: flex;
+
+    margin-right: 5%;
+  }
+
+  .navbar_black .menulist > a:hover {
+    color: #d9d9d9;
+  }
+
+  .navbar_black .message_btn {
+    height: 80px;
+    width: 186px;
+    text-align: center;
+    color: #d9d9d9;
+    font: normal normal 600 20px/24px Pretendard;
+    line-height: 80px;
+  }
+
+  .navbar_black .credit_btn {
+    height: 80px;
+    width: 186px;
+    text-align: center;
+    color: #d9d9d9;
+    font: normal normal 600 20px/24px Pretendard;
+    line-height: 80px;
+  }
+
+  /* fadeOut */
+  .black-enter-active,
+  .black-leave-active {
+    transition: all 0.3s;
+  }
+
+  .black-enter-from,
+  .black-leave-to {
+    opacity: 0;
+    transform: translateY(-80px);
+  }
 }

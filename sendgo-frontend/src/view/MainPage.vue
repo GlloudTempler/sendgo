@@ -91,9 +91,7 @@
           <div class="box2">
             <span class="title">크레딧 구매 시, 보너스 크레딧 증정</span>
             <span class="content"
-              >크레딧 상품을 구매하면 상품 별 <br />
-              보너스 크레딧을 증정합니다</span
-            >
+              >크레딧 상품을 구매하면 상품 별<br />보너스 크레딧을 증정합니다</span>
             <img src="../../public/images/49952@2x.png" />
           </div>
           <div class="box3">
